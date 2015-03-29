@@ -1,0 +1,33 @@
+{
+  "name": "Base",
+  "version": "0.1",
+  "description": "Simple base layout",
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "jquery": "~2.1.3",
+    "font-awesome": "~4.3.0"
+  },
+  "install": {
+  	"path": {
+  		"css": "assets/css/",
+  		"js": "assets/js/",
+  		"eot": "assets/fonts/",
+  		"svg": "assets/fonts/",
+  		"ttf": "assets/fonts/",
+  		"woff": "assets/fonts/",
+  		"woff2": "assets/fonts/"
+  	},
+    "sources":{
+      "bootstrap": [
+        "bower_components/bootstrap/dist/css/bootstrap.min.css",
+        "bower_components/bootstrap/dist/js/bootstrap.min.js"
+      ],
+      "font-awesome": [
+        "bower_components/font-awesome/css/font-awesome.min.css"
+      ],
+      "jquery": [
+        "bower_components/jquery/dist/jquery.min.js"
+      ]
+    }
+  }
+}
